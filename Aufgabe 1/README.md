@@ -2,8 +2,8 @@
 
 Erstelle einen Pod und eine ConfigMap
 
+| Eigenschaft | Wert |
 | --- | --- |
-| Eigenschaft | Wert |
 | Namespace | waterdeep |
 | Name des Pods | nginx |
 | Image | nginx:1.27.4-alpine |
