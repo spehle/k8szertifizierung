@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  index.html: "<html>\n\t<head>\n\t\t<title>k8szertifizierung Übung 1</title>\n\t</head>\n\t<body>\n\t\t<h1>Es
+    funktioniert!</h1>\n\t</body>\n</html>\n"
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: nginx-config-html
+  namespace: waterdeep

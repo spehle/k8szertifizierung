@@ -9,12 +9,4 @@ Erstelle einen Pod und eine ConfigMap
 | Image | nginx:1.27.4-alpine |
 | Name der ConfigMap | nginx-config-html |
 | Name der Datei für die ConfigMap | nginx-content.html |
-
-## Lösung
-
-1. Den Namespace erstellen.
-Da der Namespace noch nicht existiert, muss er zuerst erstellt werden mit:
-
-~~~
-k create ns waterdeep
-~~~
+| Pfad für den VolumeMount | /usr/share/nginx/html |
